@@ -1,0 +1,23 @@
+1. Go is compiled language.
+2. Go is suitable with cloud.
+3. Go is object oriented? Yes and No
+4. Missing =  try catch 
+5. lexer does lot of work. (even if you not write semicolon it will not give you error because lexer is providing it).
+6. go mod init name
+7. fmt package
+8. go automatically clean or unclean the packages which you need or not need.
+9. go run main.go  command to run code.
+10. go help
+11. go is case sensitive
+12. go env GOPATH = to find the path
+13. lexer job is to simply understand that you following the grammaer of the language so that your syntax is correct , variable is defined properly.
+14. In go everything is Type 
+15. var number int 
+    fmt.Println(number)
+
+    //output will be 0 , if not initailise it does not give garbage value.
+    //In case of string it give empty space
+16. Inside any method we can use walrus := operator but not outside.
+17. const Key = "jfhdjhfjd" // public because first letter(K) is capital
+18.
+
