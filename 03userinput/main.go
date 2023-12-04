@@ -14,7 +14,7 @@ func main()  {
 
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Println("Rating of Pizza:")
-
+    
 	//comma ok || comma error  ok
 	input,_ := reader.ReadString('\n')
 	fmt.Println("Thanks for rating ", input)

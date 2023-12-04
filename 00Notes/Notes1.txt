@@ -20,4 +20,6 @@
 16. Inside any method we can use walrus := operator but not outside.
 17. const Key = "jfhdjhfjd" // public because first letter(K) is capital
 18. bufio 
-
+19. comma ok ||  comma err 
+20. input is type of string.
+21. 
