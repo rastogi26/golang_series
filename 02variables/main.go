@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package main
 
 import "fmt"
@@ -33,24 +32,4 @@ func main() {
 	numberOfUser :=90000
 	fmt.Println(numberOfUser)
 
-=======
-package main
-
-import "fmt"
-//public
-const Login string = "hebaiyabvi" 
-//private 
-// const registeration string = "hdgfhgf"
-func main() {
-     var username complex128
-	 fmt.Println(username)
-	 fmt.Printf("username type is : %T \n",username)
-
-	 var  isusername bool  = true
-	 fmt.Println(isusername)
-	 fmt.Printf("username type is : %T \n ",isusername)
-	 
-	 fmt.Println(Login)
-	 
->>>>>>> ad16da4919a7c4062a63bfac2c8a7ca29dad1f9e
 }
