@@ -19,5 +19,5 @@
     //In case of string it give empty space
 16. Inside any method we can use walrus := operator but not outside.
 17. const Key = "jfhdjhfjd" // public because first letter(K) is capital
-18.
+18. bufio 
 
