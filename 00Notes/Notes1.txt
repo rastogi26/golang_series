@@ -43,5 +43,8 @@
                 c. non-zeroed storage(you can put data initally).
     4. GC(garbage collector) happens automatically.
 
-25.
+25. var ptr *int 
+    If you intialise a pointer its default value is <nil>.
+
+26.
 
