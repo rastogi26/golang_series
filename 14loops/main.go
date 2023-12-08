@@ -25,6 +25,8 @@ func main() {
 
 	//break and continue are normal  , goto 
 	count := 1
+	// ++count invalid
+	// fmt.Println(count)
 	
 	for count<10{
 		if count==2 {

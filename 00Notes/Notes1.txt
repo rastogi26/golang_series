@@ -60,5 +60,9 @@
 	courses = append(courses[:index], courses[index+1:]... )
 	fmt.Println("Updated Courses:", courses)
 
-29,
+28. No interitance, no super or parent in golang.
+
+29. In go ++count is invalid.
+
+30
 
