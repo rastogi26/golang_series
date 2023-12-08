@@ -14,4 +14,5 @@ func main() {
 
 	fmt.Println("List is" ,fruitList)
 	fmt.Println("Length is", len(fruitList))
+	fmt.Printf("Type %T",fruitList)
 }
