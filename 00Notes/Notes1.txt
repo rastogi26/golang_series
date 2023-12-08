@@ -81,4 +81,8 @@
 	return total,"Job Done"
     }
 
-31.
+31. defer, remember 2 things:-
+    1. execute at last.
+    2. if more than 1 defer they execute in LIFO manner.
+
+32. 
