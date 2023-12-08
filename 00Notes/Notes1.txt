@@ -22,4 +22,26 @@
 18. bufio 
 19. comma ok ||  comma err 
 20. input is type of string.
-21. 
+21. Time format 
+    fmt.Println(Time.Format("01-02-2006 15:04:05 Monday"))
+22. go env 
+23. Build application for linux , windows and mac in powershell are:-
+    $env:GOOS = "windows"; go build
+    $env:GOOS = "linux"; go build
+    $env:GOOS = "darwin"; go build
+
+    And in bash :-
+    GOOS=darwin go build
+24. Memory Management:-
+    1. Memory allocation and deallocation happens automatically.
+    2. 2 methods new() and make()
+    3. new():- a. Allocate memory but not INIT (intialized)
+               b. you will get a memory address
+               c. zeroed storage (you can not put any data initally).
+       make():- a. Allocate memory and init.
+                b. you will get a memory address.
+                c. non-zeroed storage(you can put data initally).
+    4. GC(garbage collector) happens automatically.
+
+25.
+
