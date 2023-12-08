@@ -64,5 +64,21 @@
 
 29. In go ++count is invalid.
 
-30
+30. (... called variatic function) used to accept various values
+    func main() {
 
+     proRes,message := proAdder(2,4,3,4,5,1,2,3,34)
+	 fmt.Println("Pro_Result is ",proRes)
+	 fmt.Println(message)
+    }
+
+    func proAdder(values... int)(int,string){
+	total :=0
+	
+	for _,val := range values{
+		total += val;
+	}
+	return total,"Job Done"
+    }
+
+31.
