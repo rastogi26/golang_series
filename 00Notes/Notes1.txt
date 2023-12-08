@@ -41,10 +41,24 @@
        make():- a. Allocate memory and init.
                 b. you will get a memory address.
                 c. non-zeroed storage(you can put data initally).
+                d.make(typeOfdata,size) eg make([]int,4) int slice of size 4
     4. GC(garbage collector) happens automatically.
 
 25. var ptr *int 
     If you intialise a pointer its default value is <nil>.
 
-26.
+26. In slice fruitList[1:3]
+    eg slice = {apple,orange,banana,peach}
+    ans = {orange,banana}
+
+27. //how to remove value from slice
+	var courses = []string{"reactjs","python","ruby","swift","c++"}
+	fmt.Println(courses)
+
+	var index int = 2
+    // we use ... so that append method accepts more arguments than what is just meant for (eg in this case it is 1).
+	courses = append(courses[:index], courses[index+1:]... )
+	fmt.Println("Updated Courses:", courses)
+
+29,
 
