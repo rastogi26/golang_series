@@ -93,3 +93,38 @@
 34. omitempty means if the value is null/nil dont throw that field at all.
 
 35. we get response in byte form and then covert it into string.
+
+   ******MOD START********
+36. one of the job is to initailise it and it gives the idea of some third party that this entire code is dependent on which version of go.
+
+
+37. go sum is build to avoid attacks. It does a check on the repository you are pulling which has has hash and if anything changes in this repository in this special version then the hash is going to fail.
+
+38. go mod verify = used to check if all the modules are verified i.e no malicus thing.
+
+
+39. Everything comes from the web comes in byte format.
+
+40. go mod tidy is a command that synchronizes the go. mod file with the actual dependencies used in the codebase. go mod tidy : Adds missing and removes unused modules and dependencies from the go. 
+    It is an expensive operation.
+
+41. list operation is expensive.
+    go list all = give a list of all the packages or dependencies installed in the application.
+    go list -m all = gives the list of all dependencies which are used/dependent in your application.
+    go list -m -versions github.com/gorilla/mux = gives all the verions of gorilla mux in ascening order.
+
+42. go mod why github.com/gorilla/mux = tells which module is dependent on gorilla mux.
+
+43. go mod graph = gives graph of the all dependencies.
+
+44. go mod edit  = to edit module file(optional)
+
+45. go mod vendor = you build your application only with dependency packages that are stored inside your project under the vendor directory. In this mode, Go commands ignore dependency descriptions in go. mod and assume that the vendor directory holds the correct copies of dependencies.
+     
+    if you run this command = "go run main.go" them it will bring everthing from web or cache but not from vendor, that can be your modified version.
+    So use this command if create vendor = "go run -mod=vendor main.go"
+
+     ******MOD END********
+46. 
+     
+
