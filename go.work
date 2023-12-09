@@ -21,5 +21,6 @@ use (
 	./20urls
 	./22json
 	./23mymodules
+	./24buildapi
 
 )
