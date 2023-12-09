@@ -89,6 +89,7 @@ func getOneCourse(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 	}
+	
 	json.NewEncoder(w).Encode("No Course found with given id")
 	return
 }
