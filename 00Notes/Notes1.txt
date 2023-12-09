@@ -92,4 +92,4 @@
 
 34. omitempty means if the value is null/nil dont throw that field at all.
 
-35.
+35. we get response in byte form and then covert it into string.

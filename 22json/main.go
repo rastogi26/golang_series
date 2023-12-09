@@ -28,7 +28,8 @@ func EncodeJson() {
 	}
 
 	//package this data as JSON data
-
+    //marshal covert the data into json
+    
 	finalJson, err := json.MarshalIndent(lcoCourses, "", "\t")
 	if err != nil {
 		panic(err)
@@ -38,6 +39,7 @@ func EncodeJson() {
 }
 
 func DecodeJson() {
+	                   //slice of byte
 	jsonDataFromWeb := []byte(`
 	{
 		"coursename": "ReactJS Bootcamp",
@@ -50,7 +52,8 @@ func DecodeJson() {
 	var lcoCourse course
 
 	checkValid := json.Valid(jsonDataFromWeb)
-
+	
+	// unmarshal = json to data
 	if checkValid {
 		fmt.Println("JSON was valid")
 		json.Unmarshal(jsonDataFromWeb, &lcoCourse)
@@ -60,7 +63,7 @@ func DecodeJson() {
 	}
 
 	// some cases where you just want to add data to key value
-
+    
 	var myOnlineData map[string]interface{}
 	json.Unmarshal(jsonDataFromWeb, &myOnlineData)
 	fmt.Printf("%#v\n", myOnlineData)
