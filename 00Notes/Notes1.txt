@@ -85,4 +85,11 @@
     1. execute at last.
     2. if more than 1 defer they execute in LIFO manner.
 
-32. 
+32.  ReadResponse nor Response.Write ever closes a connection.
+     response.Body.close()
+
+33. Response is a type of = *http.Response (getting actual refence not copy).
+
+34. omitempty means if the value is null/nil dont throw that field at all.
+
+35.
