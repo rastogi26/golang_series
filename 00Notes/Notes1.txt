@@ -125,6 +125,20 @@
     So use this command if create vendor = "go run -mod=vendor main.go"
 
      ******MOD END********
-46. 
-     
 
+46. Concurrency is when two or more tasks can start, run, and complete in overlapping time periods. It doesn't necessarily mean they'll ever both be running at the same instant. For example, multitasking on a single-core machine. 
+    Parallelism is when tasks literally run at the same time, e.g., on a multicore processor. 
+     
+47. Goroutines help to achive parallelism.
+
+48. Goroutines managed by go runtime and flexible stack = 2KB.
+    Threads managed by os and flexible stack = 1MB.
+
+49. Slogan for GO - Do not communicate by sharing memory;instead,share memory by communicating.
+
+50. A Mutex is a method used as a locking mechanism to ensure that only one Goroutine is accessing the critical section of code at any point of time. This is done to prevent race conditions from happening. Sync package contains the Mutex. Two methods defined on Mutex
+      Lock
+      Unlock
+    (sync.Mutex)
+
+51. 

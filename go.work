@@ -22,5 +22,7 @@ use (
 	./22json
 	./23mymodules
 	./24buildapi
+	./26goroutines
+	./27mutexAndAwaitGroups
 
 )
