@@ -24,5 +24,6 @@ use (
 	./24buildapi
 	./26goroutines
 	./27mutexAndAwaitGroups
+	./28channels
 
 )

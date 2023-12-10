@@ -142,3 +142,7 @@
     (sync.Mutex)
 
 51. 
+
+52. Channels are a way for various goroutines to communicate in Golang, or Go.
+
+53.
