@@ -1,3 +1,6 @@
+// BOTH NOTES ARE SAME ONE IS IN .txt format and one is in .md format
+
+
 1. Go is compiled language.
 2. Go is suitable with cloud.
 3. Go is object oriented? Yes and No
