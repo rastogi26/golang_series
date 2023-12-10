@@ -5,6 +5,7 @@ use (
 	./02variables
 	./03userinput
 	./04conversion
+	./05mymaths
 	./06mytime
 	./07mypointers
 	./08myarray
