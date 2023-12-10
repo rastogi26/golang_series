@@ -141,7 +141,7 @@
       Unlock
     (sync.Mutex)
 
-51. 
+51. go run --race to check if there is race condition or not.
 
 52. Channels are a way for various goroutines to communicate in Golang, or Go.
 
